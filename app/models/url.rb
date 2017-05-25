@@ -9,4 +9,5 @@ class Url < ApplicationRecord
   def increase
     self.count  += 1
   end
+  
 end
